@@ -25,11 +25,12 @@ function makePropertyCards() {
         propertyImage.height = 100
         propertyImage.width = 100
 
-        propertyTitle.textContent = property.title
+        propertyTitle.textContent = `Name: ${property.title}`
 
-        propertyPrice.textContent = property.price
+        propertyPrice.textContent = `Price: $${property.price}`
 
         purchaseButton.textContent = "Purchase"
+        purchaseButton.className = "btt2"
 
         propertyDiv.append(
             propertyImage,
