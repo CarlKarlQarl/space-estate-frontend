@@ -1,41 +1,131 @@
-* {
+@import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
+
+body {
     box-sizing: border-box;
+    background-color: #1B2027;
+    position: fixed;
+    
 }
 
-#header {
+body.noScroll { 
+    overflow: hidden;
+  } 
+
+/* #header {
     display: flex;
     flex-direction: column;
     align-items: center;
     border-style: solid;
+} */
+
+
+#header{
+    width: 100%;
+    margin: -10;
+    height: 80px;
+    opacity: 0.6;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    /* background-color: #000000; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* border-style: solid; */
+  }
+
+.logo {
+    width: 300px;
+    height: 62px;
+    margin: 20px; 
 }
 
-#motto {
+/* #motto {
     display: flex;
     flex-direction: row;
     align-items: center;
+} */
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: 	#C0C0C0;
 }
 
 #margin-and-list {
     display: flex;
     flex-direction: row;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.btt {
+    height: 3rem;
+    width: 10rem;
+    position: absolute;
+    bottom: 150px;
+    font-size: 20px;
+    color: 	#C0C0C0;
+    border: 1px solid #C0C0C0;
+    box-shadow: 2px 1px 4px 1px rgb(88,88,88, 0.5);
+    border-radius: 1px;
+    background-color: #1B2027;
+}
+
+.btt2 {
+    height: 2rem;
+    width: 8rem;
+    font-size: 20px;
+    color: 	#C0C0C0;
+    border: 1px solid #C0C0C0;
+    box-shadow: 2px 1px 4px 1px rgb(88,88,88, 0.5);
+    border-radius: 1px;
+    background-color: #1B2027;
+}
+
+.footer {
+    position: absolute; 
+    bottom: 200px;
+    width: 100%;
+    height: 80px; 
+    color: 	#C0C0C0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.footer-text {
+    font-family: 'Roboto', sans-serif; 
+    margin-top: 120px;
+    font-size: 15px;
+}
+
+.sm-icon {
+    height: 20px;
+    width: 20px;
+    margin: 20px;
+    margin-top: 70px;
 }
 
 #user-margin {
     display: flex;
     flex-direction: column;
-    border-style: solid;
     padding: .5rem;
     margin: .5rem;
     margin-left: 0rem;
+    width: 200px;
+    height: 100vh;   
 }
 
 #property-list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+    color: 	#C0C0C0;
 }
 
 .real-estate {
     padding: .5rem;
     margin: .5rem;
+    font-family: 'Roboto', sans-serif;
+
 }
