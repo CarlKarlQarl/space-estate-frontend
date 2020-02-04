@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+}
+
+#motto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#margin-and-list {
+    display: flex;
+    flex-direction: row;
+}
+
+#user-margin {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    padding: .5rem;
+    margin: .5rem;
+    margin-left: 0rem;
+}
+
+#property-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.real-estate {
+    padding: .5rem;
+    margin: .5rem;
+}
