@@ -27,7 +27,7 @@ function makePropertyCards() {
 
         propertyTitle.textContent = `Name: ${property.title}`
 
-        propertyPrice.textContent = `Price: $${property.price}`
+        propertyPrice.textContent = `Price: $${property.price / 1000},000`
 
         purchaseButton.textContent = "Purchase"
         purchaseButton.className = "btt2"
